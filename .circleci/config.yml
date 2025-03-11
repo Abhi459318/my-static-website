@@ -7,7 +7,7 @@ jobs:
  - checkout
  - run:
  name: Deploy to S3
- command: aws s3 sync .s3://first-project4593 /
+ command: aws s3 sync .s3://first-project4593/
 workflows:
  Production:
  jobs:
